@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Page title and description: what Google and social media show -->
+<title>Contact Us | Remain Rogue</title>
+<meta name="description" content="Get in touch with Remain Rogue about orders, sizing, returns or wholesale. Email remainrogue@gmail.com.">
+<link rel="canonical" href="https://www.remainrogue.com.au/contact">
+
+<meta property="og:site_name" content="Remain Rogue">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact Us | Remain Rogue">
+<meta property="og:description" content="Get in touch with Remain Rogue about orders, sizing, returns or wholesale. Email remainrogue@gmail.com.">
+<meta property="og:url" content="https://www.remainrogue.com.au/contact">
+<meta property="og:image" content="https://www.remainrogue.com.au/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#d5feaf">
+<link rel="icon" href="/assets/img/favicon-48.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<!-- Fonts load early so the logo doesn't flicker -->
+<link rel="preload" href="/assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/archivo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://static.wixstatic.com">
+<link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+<!-- Header is drawn by /assets/js/site.js -->
+<div id="site-header"></div>
+
+<main id="main">
+<section class="pagehead"><div class="wrap"><h1>Contact us</h1><p>Questions about an order, sizing, returns or wholesale? We reply within 1–2 business days.</p></div></section>
+<div class="wrap">
+  <div class="contact-grid">
+    <div>
+      <h2 class="h2" style="font-size:32px;margin-bottom:14px">Email us</h2>
+      <p class="emailbox" id="email">remainrogue@gmail.com</p>
+      <p><button class="btn outline" type="button" id="copy-email">Copy email address</button></p>
+      <h2 class="h2" style="font-size:32px;margin:36px 0 14px">Instagram</h2>
+      <p><a href="https://www.instagram.com/remainrogue" target="_blank" rel="noopener">@remainrogue</a></p>
+      <h2 class="h2" style="font-size:32px;margin:36px 0 14px">Wholesale</h2>
+      <p>Interested in stocking Remain Rogue? Email us with your business name, location and the products you're interested in.</p>
+    </div>
+    <div>
+      <h2 class="h2" style="font-size:32px;margin-bottom:6px">Send a message</h2>
+      <p class="small" style="margin-bottom:18px">This opens your email app with your message ready to send.</p>
+      <!-- This form doesn't need a server: it opens the visitor's email app. -->
+      <form class="form" id="contact-form" novalidate>
+        <div class="two">
+          <label for="cf-name">Name<input id="cf-name" name="name" autocomplete="name" required></label>
+          <label for="cf-order">Order number (optional)<input id="cf-order" name="order"></label>
+        </div>
+        <label for="cf-subject">Subject<input id="cf-subject" name="subject" required></label>
+        <label for="cf-msg">Message<textarea id="cf-msg" name="message" required></textarea></label>
+        <p class="err" id="cf-err" hidden>Please fill in your name, subject and message.</p>
+        <button class="btn" type="submit">Open in my email app</button>
+      </form>
+    </div>
+  </div>
+</div>
+</main>
+
+<!-- Footer is drawn by /assets/js/site.js -->
+<div id="site-footer"></div>
+<script src="/assets/js/site.js" defer></script>
+<script src="/assets/js/contact.js" defer></script>
+</body>
+</html>

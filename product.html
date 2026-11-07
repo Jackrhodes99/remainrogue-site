@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- Page title and description: what Google and social media show -->
+<title>Product | Remain Rogue</title>
+<meta name="description" content="Remain Rogue golf apparel.">
+
+
+<meta property="og:site_name" content="Remain Rogue">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Product | Remain Rogue">
+<meta property="og:description" content="Remain Rogue golf apparel.">
+<meta property="og:url" content="">
+<meta property="og:image" content="https://www.remainrogue.com.au/assets/img/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#d5feaf">
+<link rel="icon" href="/assets/img/favicon-48.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<!-- Fonts load early so the logo doesn't flicker -->
+<link rel="preload" href="/assets/fonts/anton-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/archivo-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preconnect" href="https://static.wixstatic.com">
+<link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+<!-- Header is drawn by /assets/js/site.js -->
+<div id="site-header"></div>
+
+<main id="main">
+<!-- Every product uses this one page. The web address /product/mojito tells
+     the script which product from products.json to show. -->
+<div class="wrap">
+  <div id="product-root" class="product" aria-busy="true">
+    <p>Loading…</p>
+  </div>
+</div>
+<section class="sec tight-top" id="more" hidden>
+  <div class="wrap">
+    <div class="sechead"><h2>You might also like</h2><a href="/shop">Shop all</a></div>
+    <div class="grid" id="more-grid"></div>
+  </div>
+</section>
+</main>
+
+<!-- Footer is drawn by /assets/js/site.js -->
+<div id="site-footer"></div>
+<script src="/assets/js/site.js" defer></script>
+<script src="/assets/js/product.js" defer></script>
+</body>
+</html>

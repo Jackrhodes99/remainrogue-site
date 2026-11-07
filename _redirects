@@ -1,0 +1,18 @@
+# Cloudflare Pages redirects. Format: from  to  status
+# 1) Product pages: /product/mojito shows product.html (address bar keeps /product/mojito)
+/product/*                         /product                         200
+
+# 2) Old Wix addresses -> new addresses, so old links and Google results keep working
+/product-page/mojito               /product/mojito                  301
+/product-page/fireball             /product/fireball                301
+/product-page/blue-lagoon          /product/blue-lagoon             301
+/product-page/the-lobster          /product/the-lobster             301
+/product-page/cupid                /product/cupid                   301
+/product-page/stick-it-to-the-man  /product/stick-it-to-the-man     301
+/product-page/*                    /shop                            301
+/polos                             /shop?category=polos             301
+/tees                              /shop?category=tees              301
+/caps                              /shop?category=caps              301
+/shipping-and-returns              /shipping-returns                301
+/store-policy                      /terms                           301
+/home                              /                                301

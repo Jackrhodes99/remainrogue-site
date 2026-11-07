@@ -1,0 +1,6 @@
+# Files that should never be uploaded to GitHub
+.dev.vars
+.env
+node_modules/
+.wrangler/
+.DS_Store

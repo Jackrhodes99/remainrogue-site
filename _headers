@@ -1,0 +1,21 @@
+# Cloudflare Pages headers: security settings and caching for speed.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Strict-Transport-Security: max-age=31536000
+
+# Fonts never change, so browsers can keep them for a year
+/assets/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# CSS, JS and images: cached for a day, so your edits show up quickly
+/assets/*
+  Cache-Control: public, max-age=86400
+/images/*
+  Cache-Control: public, max-age=86400
+
+# Product list: always checked for changes so new prices appear straight away
+/products.json
+  Cache-Control: no-cache

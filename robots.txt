@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /cart
+Disallow: /success
+Disallow: /cancel
+Disallow: /api/
+
+Sitemap: https://www.remainrogue.com.au/sitemap.xml

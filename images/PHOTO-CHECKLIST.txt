@@ -1,0 +1,148 @@
+PRODUCT PHOTOS — DO THIS BEFORE YOU CANCEL WIX
+=============================================
+
+Right now the website shows your photos straight from Wix. If you cancel
+your Wix account, Wix may delete them and the photos on your new site will
+break. Follow these steps first. It takes about 15 minutes.
+
+STEP 1  Save each photo
+  - Open each link below in your browser.
+  - Right-click the photo (on a phone or Mac trackpad: press and hold, or
+    Control-click) and choose "Save Image As...".
+  - Save it with the exact "Save as" name shown. Names must match exactly,
+    including lower-case letters and the .jpg / .png ending.
+  - Tip: if you still have the original photos on your phone or computer,
+    use those instead. They're usually better quality. Make each one
+    smaller than 1 MB (around 1500 px wide is plenty).
+
+STEP 2  Upload them into this "images" folder on GitHub
+  - In your GitHub repository, click the "images" folder, then
+    "Add file" > "Upload files". Drag all the photos in, then click
+    "Commit changes".
+
+STEP 3  Point products.json at the new files
+  - Open products.json in GitHub and click the pencil icon to edit.
+  - Replace each long https://static.wixstatic.com/... address with the
+    matching "New address" from the list below, for example:
+        "/images/mojito-1.jpg"
+  - Click "Commit changes". The site updates in about a minute.
+
+STEP 4  Check the website. Every product photo should still show.
+        Only then cancel Wix.
+
+-----------------------------------------------------------------------------
+
+mojito photo 1
+  Open:        https://static.wixstatic.com/media/7ab260_1df52e4b13ea4aa98cd1733eaaee08b0~mv2.jpg
+  Save as:     mojito-1.jpg
+  New address: /images/mojito-1.jpg
+
+mojito photo 2
+  Open:        https://static.wixstatic.com/media/7ab260_0cb32014f8f94fcf87f37b083b5f588e~mv2.jpg
+  Save as:     mojito-2.jpg
+  New address: /images/mojito-2.jpg
+
+mojito photo 3
+  Open:        https://static.wixstatic.com/media/7ab260_90363d2bb83048e89a6110f1a7b08628~mv2.jpg
+  Save as:     mojito-3.jpg
+  New address: /images/mojito-3.jpg
+
+mojito photo 4
+  Open:        https://static.wixstatic.com/media/7ab260_1dd3c2fcc6444e838aee523aeefdce8b~mv2.jpg
+  Save as:     mojito-4.jpg
+  New address: /images/mojito-4.jpg
+
+fireball photo 1
+  Open:        https://static.wixstatic.com/media/7ab260_baf81e17e818410cbdfaa8a816b5ef41~mv2.jpg
+  Save as:     fireball-1.jpg
+  New address: /images/fireball-1.jpg
+
+fireball photo 2
+  Open:        https://static.wixstatic.com/media/7ab260_5184d2a52a0b491886e0685d9748a589~mv2.jpg
+  Save as:     fireball-2.jpg
+  New address: /images/fireball-2.jpg
+
+fireball photo 3
+  Open:        https://static.wixstatic.com/media/7ab260_21b6931de41a47f2b0d11f968bd91e3d~mv2.png
+  Save as:     fireball-3.png
+  New address: /images/fireball-3.png
+
+fireball photo 4
+  Open:        https://static.wixstatic.com/media/7ab260_8088cf08e6a64e88b654051b341091f3~mv2.jpg
+  Save as:     fireball-4.jpg
+  New address: /images/fireball-4.jpg
+
+blue-lagoon photo 1
+  Open:        https://static.wixstatic.com/media/7ab260_6c79c6030bb445a6a3570f031f304ada~mv2.png
+  Save as:     blue-lagoon-1.png
+  New address: /images/blue-lagoon-1.png
+
+blue-lagoon photo 2
+  Open:        https://static.wixstatic.com/media/7ab260_503a4415745646b0aa7ab5d02f510bdb~mv2.jpg
+  Save as:     blue-lagoon-2.jpg
+  New address: /images/blue-lagoon-2.jpg
+
+blue-lagoon photo 3
+  Open:        https://static.wixstatic.com/media/7ab260_6f922d8598364e888b06f5dc54efae24~mv2.jpg
+  Save as:     blue-lagoon-3.jpg
+  New address: /images/blue-lagoon-3.jpg
+
+blue-lagoon photo 4
+  Open:        https://static.wixstatic.com/media/7ab260_11085477745a4498898d08a07dbcc529~mv2.jpg
+  Save as:     blue-lagoon-4.jpg
+  New address: /images/blue-lagoon-4.jpg
+
+the-lobster photo 1
+  Open:        https://static.wixstatic.com/media/7ab260_4d057af8891e425186d2c5b69e94e502~mv2.jpg
+  Save as:     the-lobster-1.jpg
+  New address: /images/the-lobster-1.jpg
+
+the-lobster photo 2
+  Open:        https://static.wixstatic.com/media/7ab260_a61ceb004c6840c5b5b04d57f88c6c49~mv2.jpg
+  Save as:     the-lobster-2.jpg
+  New address: /images/the-lobster-2.jpg
+
+the-lobster photo 3
+  Open:        https://static.wixstatic.com/media/7ab260_36880f80552c49e19874fefb901b80c8~mv2.jpg
+  Save as:     the-lobster-3.jpg
+  New address: /images/the-lobster-3.jpg
+
+cupid photo 1
+  Open:        https://static.wixstatic.com/media/7ab260_41f6d704fb144095bb310afdfe2dab70~mv2.png
+  Save as:     cupid-1.png
+  New address: /images/cupid-1.png
+
+cupid photo 2
+  Open:        https://static.wixstatic.com/media/7ab260_8ca1fa26c02c4be7a7b3b03d333e8429~mv2.png
+  Save as:     cupid-2.png
+  New address: /images/cupid-2.png
+
+cupid photo 3
+  Open:        https://static.wixstatic.com/media/7ab260_0c0c2a7d3cd0420b9b50825c69e7d0d4~mv2.jpg
+  Save as:     cupid-3.jpg
+  New address: /images/cupid-3.jpg
+
+stick-it-to-the-man photo 1
+  Open:        https://static.wixstatic.com/media/7ab260_33d56bd5bb574b138c1ad4a11a6a5552~mv2.png
+  Save as:     stick-it-to-the-man-1.png
+  New address: /images/stick-it-to-the-man-1.png
+
+stick-it-to-the-man photo 2
+  Open:        https://static.wixstatic.com/media/7ab260_83c98fe80382470fa0c424347d97fc30~mv2.jpg
+  Save as:     stick-it-to-the-man-2.jpg
+  New address: /images/stick-it-to-the-man-2.jpg
+
+category-polos photo 1
+  Open:        https://static.wixstatic.com/media/7ab260_540b4919a193419493006b0e9172f0c1~mv2.jpg
+  Save as:     category-polos.jpg
+  New address: /images/category-polos.jpg
+
+category-tees photo 1
+  Open:        https://static.wixstatic.com/media/7ab260_8bbaa4e5a368415d9b370522251ed6dd~mv2.jpeg
+  Save as:     category-tees.jpg
+  New address: /images/category-tees.jpg
+
+category-caps photo 1
+  Open:        https://static.wixstatic.com/media/7ab260_91e0c889ee3f45deb19ca4caacd218ae~mv2.jpeg
+  Save as:     category-caps.jpg
+  New address: /images/category-caps.jpg
