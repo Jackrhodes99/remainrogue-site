@@ -12,6 +12,15 @@
   let region = "AU";
   try { region = localStorage.getItem("rr_region") || "AU"; } catch {}
 
+  // Builds the order summary used in the "Email us to order" button
+  function orderText(lines) {
+    const rows = lines.map(l => {
+      const p = data.products.find(x => x.id === l.id);
+      return `${l.qty} x ${p.name} (${l.size}) - ${money(p.price * l.qty)}`;
+    });
+    return `Hi Remain Rogue, I'd like to order:\n\n${rows.join("\n")}\n\nShipping to (${region === "AU" ? "Australia" : "outside Australia"}):\nName:\nAddress:\nPhone:\n`;
+  }
+
   function render() {
     // Drop anything that's no longer sold (removed or set inactive in products.json)
     const lines = Cart.read().filter(l => data.products.some(p => p.id === l.id));
@@ -62,9 +71,12 @@
         <div class="row"><span>Subtotal</span><span>${money(subtotal)}</span></div>
         <div class="row"><span>Shipping</span><span>${shipping === 0 ? "Free" : money(shipping)}</span></div>
         <div class="row total"><span>Total (AUD)</span><span>${money(subtotal + shipping)}</span></div>
+        ${SITE.checkoutOpen ? `
         <button class="btn block" type="button" id="checkout">Checkout</button>
         <p class="err" id="checkout-err" role="alert" hidden></p>
-        <p class="small">You'll enter your address and payment on Stripe's secure checkout page. Discount codes can be added there.</p>
+        <p class="small">You'll enter your address and payment on Stripe's secure checkout page. Discount codes can be added there.</p>` : `
+        <div class="progress"><strong>Online checkout opens very soon.</strong><br>To order now, email us your cart (items, sizes and quantities) and delivery address at <strong>${esc(SITE.email)}</strong> and we'll send you a payment link.</div>
+        <a class="btn block" href="mailto:${SITE.email}?subject=${encodeURIComponent("Order request")}&body=${encodeURIComponent(orderText(lines))}">Email us to order</a>`}
         <a class="textlink" href="/shop">Continue shopping</a>
       </aside>
     </div>`;

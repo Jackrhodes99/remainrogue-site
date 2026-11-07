@@ -74,7 +74,7 @@ If you change these, also update the wording on these pages: `shipping-returns.h
 
 | To change… | Edit this file |
 |---|---|
-| Announcement bar, footer email, Instagram, ABN | `assets/js/site.js` (the `SITE` section at the top) |
+| Announcement bar, footer email, Instagram, ABN, **online checkout on/off** (`checkoutOpen`) | `assets/js/site.js` (the `SITE` section at the top) |
 | Menu links | `assets/js/site.js` (`renderHeader`) |
 | Homepage text | `index.html` |
 | About, FAQ, Shipping & Returns, Privacy, Terms | `about.html`, `faq.html`, `shipping-returns.html`, `privacy.html`, `terms.html` |

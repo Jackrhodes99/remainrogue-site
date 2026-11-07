@@ -14,7 +14,13 @@ const SITE = {
   instagramHandle: "@remainrogue",
   abn: "84 415 772 446",
   location: "Queensland, Australia",
-  announcement: "Free shipping Australia-wide on orders $99+"
+  announcement: "Free shipping Australia-wide on orders $99+",
+
+  // ONLINE CHECKOUT SWITCH
+  // true  = customers pay online through Stripe
+  // false = checkout button is replaced by an "email us to order" message
+  //         (use this while Stripe isn't activated yet)
+  checkoutOpen: false
 };
 
 /* ---------- Small helpers ---------- */
