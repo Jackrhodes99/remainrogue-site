@@ -20,7 +20,7 @@ const SITE = {
   // true  = customers pay online through Stripe
   // false = checkout button is replaced by an "email us to order" message
   //         (use this while Stripe isn't activated yet)
-  checkoutOpen: false
+  checkoutOpen: true
 };
 
 /* ---------- Small helpers ---------- */
