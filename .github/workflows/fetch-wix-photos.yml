@@ -1,0 +1,31 @@
+# One-off job: copies the product photos from the old Wix site into the
+# "photos" branch of this repository. Run once, then this file can be deleted.
+name: Fetch Wix photos
+on:
+  push:
+    paths: [".github/workflows/fetch-wix-photos.yml", ".github/photo-list.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download photos
+        run: |
+          mkdir -p out
+          while read -r folder name url; do
+            [ -z "$folder" ] && continue
+            mkdir -p "out/$folder"
+            curl -fsSL --retry 3 -o "out/$folder/$name" "$url" && echo "ok $folder/$name" || echo "FAILED $folder/$name"
+          done < .github/photo-list.txt
+          ls -laR out
+      - name: Save to "photos" branch
+        run: |
+          cd out
+          git init -q -b photos
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add -A && git commit -qm "Original product photos from the Wix site"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" photos
