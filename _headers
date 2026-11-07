@@ -10,8 +10,13 @@
 /assets/fonts/*
   Cache-Control: public, max-age=31536000, immutable
 
-# CSS, JS and images: cached for a day, so your edits show up quickly
-/assets/*
+# CSS and JS: browsers re-check every 5 minutes, so your edits show up quickly
+/assets/js/*
+  Cache-Control: public, max-age=300
+/assets/css/*
+  Cache-Control: public, max-age=300
+# Images: cached for a day
+/assets/img/*
   Cache-Control: public, max-age=86400
 /images/*
   Cache-Control: public, max-age=86400
