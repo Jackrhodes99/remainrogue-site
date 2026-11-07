@@ -20,6 +20,7 @@
   Cache-Control: public, max-age=86400
 /images/*
   Cache-Control: public, max-age=86400
+  Access-Control-Allow-Origin: *
 
 # Product list: always checked for changes so new prices appear straight away
 /products.json
