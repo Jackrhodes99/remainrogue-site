@@ -75,7 +75,7 @@
         <button class="btn block" type="button" id="checkout">Checkout</button>
         <p class="err" id="checkout-err" role="alert" hidden></p>
         <p class="small">You'll enter your address and payment on Stripe's secure checkout page. Discount codes can be added there.</p>` : `
-        <div class="progress"><strong>Online checkout opens very soon.</strong><br>To order now, email us your cart (items, sizes and quantities) and delivery address at <strong>${esc(SITE.email)}</strong> and we'll send you a payment link.</div>
+        <div class="progress"><strong>Online checkout opens very soon.</strong><br>To order now, email us your cart (items, sizes and quantities) and delivery address at <strong>${esc(SITE.email)}</strong> and we'll reply with how to pay.</div>
         <a class="btn block" href="mailto:${SITE.email}?subject=${encodeURIComponent("Order request")}&body=${encodeURIComponent(orderText(lines))}">Email us to order</a>`}
         <a class="textlink" href="/shop">Continue shopping</a>
       </aside>
