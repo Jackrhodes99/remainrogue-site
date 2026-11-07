@@ -3,7 +3,7 @@
 The online store for **www.remainrogue.com.au**. It's built with plain HTML, CSS and JavaScript, hosted free on **Cloudflare Pages**, with payments through **Stripe Checkout**.
 
 - 🚀 **Setting it up for the first time?** Read **`SETUP-GUIDE.md`**.
-- 📸 **Before cancelling Wix:** follow **`images/PHOTO-CHECKLIST.txt`**.
+- 📸 Product photos live in the `images` folder. Full-size originals are in Documents\Remain Rogue photos on your computer.
 
 ---
 

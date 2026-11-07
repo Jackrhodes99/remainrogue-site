@@ -9,15 +9,21 @@
       "colour": "Green & white check",
       "price": 53.40,
       "compareAtPrice": 89.00,
-      "sizes": ["XS", "S", "M", "L", "XL"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "fabric": "90% polyester, 10% spandex",
       "fitNote": "Polos run slightly large. We recommend sizing down.",
       "description": "A green and white check polo from the Golf & Racquet Club Release. Light, stretchy performance fabric that moves with your swing and stays sharp from the first tee to the clubhouse.",
       "images": [
-        "https://static.wixstatic.com/media/7ab260_1df52e4b13ea4aa98cd1733eaaee08b0~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg",
-        "https://static.wixstatic.com/media/7ab260_0cb32014f8f94fcf87f37b083b5f588e~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg",
-        "https://static.wixstatic.com/media/7ab260_90363d2bb83048e89a6110f1a7b08628~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg",
-        "https://static.wixstatic.com/media/7ab260_1dd3c2fcc6444e838aee523aeefdce8b~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg"
+        "/images/mojito/mojito-1.jpg",
+        "/images/mojito/mojito-2.jpg",
+        "/images/mojito/mojito-3.jpg",
+        "/images/mojito/mojito-4.jpg"
       ],
       "featured": true,
       "active": true
@@ -30,15 +36,21 @@
       "colour": "Burnt orange & white check",
       "price": 53.40,
       "compareAtPrice": 89.00,
-      "sizes": ["XS", "S", "M", "L", "XL"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "fabric": "90% polyester, 10% spandex",
       "fitNote": "Polos run slightly large. We recommend sizing down.",
       "description": "The burnt orange and white check polo from the Golf & Racquet Club Release. Warm, loud and made to be noticed, in a stretch performance fabric that keeps you cool over 18 holes.",
       "images": [
-        "https://static.wixstatic.com/media/7ab260_baf81e17e818410cbdfaa8a816b5ef41~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg",
-        "https://static.wixstatic.com/media/7ab260_5184d2a52a0b491886e0685d9748a589~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg",
-        "https://static.wixstatic.com/media/7ab260_21b6931de41a47f2b0d11f968bd91e3d~mv2.png/v1/fit/w_1000,h_1000,q_85/file.png",
-        "https://static.wixstatic.com/media/7ab260_8088cf08e6a64e88b654051b341091f3~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg"
+        "/images/fireball/fireball-1.jpg",
+        "/images/fireball/fireball-2.jpg",
+        "/images/fireball/fireball-3.jpg",
+        "/images/fireball/fireball-4.jpg"
       ],
       "featured": true,
       "active": true
@@ -51,15 +63,21 @@
       "colour": "Blue & white",
       "price": 53.40,
       "compareAtPrice": 89.00,
-      "sizes": ["XS", "S", "M", "L", "XL"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "fabric": "90% polyester, 10% spandex",
       "fitNote": "Polos run slightly large. We recommend sizing down.",
       "description": "A blue and white patterned polo from the Golf & Racquet Club Release. Cool-toned, easy to wear, and cut from a light stretch fabric built for hot days on the course.",
       "images": [
-        "https://static.wixstatic.com/media/7ab260_6c79c6030bb445a6a3570f031f304ada~mv2.png/v1/fit/w_1000,h_1000,q_85/file.png",
-        "https://static.wixstatic.com/media/7ab260_503a4415745646b0aa7ab5d02f510bdb~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg",
-        "https://static.wixstatic.com/media/7ab260_6f922d8598364e888b06f5dc54efae24~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg",
-        "https://static.wixstatic.com/media/7ab260_11085477745a4498898d08a07dbcc529~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg"
+        "/images/blue-lagoon/blue-lagoon-1.jpg",
+        "/images/blue-lagoon/blue-lagoon-2.jpg",
+        "/images/blue-lagoon/blue-lagoon-3.jpg",
+        "/images/blue-lagoon/blue-lagoon-4.jpg"
       ],
       "featured": true,
       "active": true
@@ -72,14 +90,20 @@
       "colour": "White with red & blue detail",
       "price": 32.40,
       "compareAtPrice": 54.00,
-      "sizes": ["XS", "S", "M", "L", "XL"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "fabric": "100% cotton",
       "fitNote": "We recommend sizing up in our tees for a more relaxed fit.",
       "description": "A white cotton tee with a small red and blue Lobster? graphic. Soft, simple and a little bit strange, for the round after the round.",
       "images": [
-        "https://static.wixstatic.com/media/7ab260_4d057af8891e425186d2c5b69e94e502~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg",
-        "https://static.wixstatic.com/media/7ab260_a61ceb004c6840c5b5b04d57f88c6c49~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg",
-        "https://static.wixstatic.com/media/7ab260_36880f80552c49e19874fefb901b80c8~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg"
+        "/images/the-lobster/the-lobster-1.jpg",
+        "/images/the-lobster/the-lobster-2.jpg",
+        "/images/the-lobster/the-lobster-3.jpg"
       ],
       "featured": false,
       "active": true
@@ -92,14 +116,20 @@
       "colour": "White with Cupid graphic",
       "price": 32.40,
       "compareAtPrice": 54.00,
-      "sizes": ["XS", "S", "M", "L", "XL"],
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
       "fabric": "100% cotton",
       "fitNote": "We recommend sizing up in our tees for a more relaxed fit.",
       "description": "A white cotton tee with our Cupid graphic. Soft everyday cotton with a design that does the talking.",
       "images": [
-        "https://static.wixstatic.com/media/7ab260_41f6d704fb144095bb310afdfe2dab70~mv2.png/v1/fit/w_1000,h_1000,q_85/file.png",
-        "https://static.wixstatic.com/media/7ab260_8ca1fa26c02c4be7a7b3b03d333e8429~mv2.png/v1/fit/w_1000,h_1000,q_85/file.png",
-        "https://static.wixstatic.com/media/7ab260_0c0c2a7d3cd0420b9b50825c69e7d0d4~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg"
+        "/images/cupid/cupid-1.jpg",
+        "/images/cupid/cupid-2.jpg",
+        "/images/cupid/cupid-3.jpg"
       ],
       "featured": false,
       "active": true
@@ -117,17 +147,29 @@
       "fitNote": "One size fits most. Adjustable strap.",
       "description": "A black 5-panel cap in durable waterproof nylon, with our embroidered Stick Man on the front. Breathable, adjustable and tough enough for wet mornings on the course or anywhere else you take it.",
       "images": [
-        "https://static.wixstatic.com/media/7ab260_33d56bd5bb574b138c1ad4a11a6a5552~mv2.png/v1/fit/w_1000,h_1000,q_85/file.png",
-        "https://static.wixstatic.com/media/7ab260_83c98fe80382470fa0c424347d97fc30~mv2.jpg/v1/fit/w_1000,h_1000,q_85/file.jpg"
+        "/images/stick-it-to-the-man/stick-it-to-the-man-1.jpg",
+        "/images/stick-it-to-the-man/stick-it-to-the-man-2.jpg"
       ],
       "featured": false,
       "active": true
     }
   ],
   "categories": [
-    { "id": "polos", "name": "Polos", "image": "https://static.wixstatic.com/media/7ab260_540b4919a193419493006b0e9172f0c1~mv2.jpg/v1/fit/w_900,h_1200,q_85/file.jpg" },
-    { "id": "tees",  "name": "Tees",  "image": "https://static.wixstatic.com/media/7ab260_8bbaa4e5a368415d9b370522251ed6dd~mv2.jpeg/v1/fit/w_900,h_1200,q_85/file.jpg" },
-    { "id": "caps",  "name": "Caps",  "image": "https://static.wixstatic.com/media/7ab260_91e0c889ee3f45deb19ca4caacd218ae~mv2.jpeg/v1/fit/w_900,h_1200,q_85/file.jpg" }
+    {
+      "id": "polos",
+      "name": "Polos",
+      "image": "/images/categories/category-polos.jpg"
+    },
+    {
+      "id": "tees",
+      "name": "Tees",
+      "image": "/images/categories/category-tees.jpg"
+    },
+    {
+      "id": "caps",
+      "name": "Caps",
+      "image": "/images/categories/category-caps.jpg"
+    }
   ],
   "shipping": {
     "_help": "Shipping prices in AUD. Free Australian shipping when the cart total (before shipping) reaches freeShippingThreshold.",
