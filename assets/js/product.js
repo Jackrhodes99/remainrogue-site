@@ -41,7 +41,7 @@
   root.removeAttribute("aria-busy");
   root.innerHTML = `
     <div class="gallery">
-      <div class="main"><img id="main-img" src="${esc(p.images[0])}" alt="${esc(p.name)}, ${esc(p.colour)}, photo 1" width="1000" height="1000" fetchpriority="high"></div>
+      <div class="main"><span class="ai-label" id="ai-label" hidden>Styled image · AI-generated</span><img id="main-img" src="${esc(p.images[0])}" alt="${esc(p.name)}, ${esc(p.colour)}, photo 1" width="1000" height="1000" fetchpriority="high"></div>
       ${p.images.length > 1 ? `<div class="thumbs" role="group" aria-label="Product photos">${p.images.map((src, i) =>
         `<button type="button" id="thumb-${i}" data-i="${i}" aria-label="Show photo ${i + 1}" aria-current="${i === 0}"><img src="${esc(src)}" alt="" loading="lazy" width="200" height="200"></button>`).join("")}</div>` : ""}
     </div>
@@ -86,6 +86,8 @@
     const b = e.target.closest("[data-i]"); if (!b) return;
     const i = +b.dataset.i;
     const img = $("#main-img"); img.src = p.images[i]; img.alt = `${p.name}, ${p.colour}, photo ${i + 1}`;
+    // Shows the "AI-generated" label on styled (AI) photos
+    $("#ai-label").hidden = !(p.aiImages || []).includes(p.images[i]);
     root.querySelectorAll(".thumbs button").forEach(x => x.setAttribute("aria-current", String(x === b)));
   });
 

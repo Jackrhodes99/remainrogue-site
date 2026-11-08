@@ -289,3 +289,8 @@ nav.main a:hover,nav.main a[aria-current="page"]{text-decoration:underline;text-
 @media (max-width:900px){#site-header{height:107px}}
 /* Keep the footer below the fold while products load (stops the page jumping) */
 main{min-height:calc(100vh - 100px)}
+
+/* Small label on AI-generated styled photos (honest labelling for customers) */
+.gallery .main{position:relative}
+.ai-label{position:absolute;top:12px;right:12px;z-index:2;background:rgba(255,255,255,.88);color:var(--ink);font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;padding:5px 8px}
+.gallery .main img{object-fit:contain}
