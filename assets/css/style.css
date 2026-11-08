@@ -110,7 +110,7 @@ nav.main a:hover,nav.main a[aria-current="page"]{text-decoration:underline;text-
 /* ---------- Product cards ---------- */
 .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:36px 12px}
 .card{display:grid;gap:12px;align-content:start;text-decoration:none}
-.ph{position:relative;aspect-ratio:1/1;max-width:100%;background:var(--stone);overflow:hidden}
+.ph{position:relative;aspect-ratio:4/5;max-width:100%;background:var(--stone);overflow:hidden}
 .ph img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
 .card:hover .ph img{transform:scale(1.03)}
 .tag{position:absolute;top:12px;left:12px;background:var(--ink);color:var(--lime);font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;padding:5px 9px}
@@ -130,10 +130,10 @@ nav.main a:hover,nav.main a[aria-current="page"]{text-decoration:underline;text-
 /* ---------- Product page ---------- */
 .product{display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(24px,4vw,56px);padding-block:32px clamp(48px,7vw,88px)}
 .gallery{display:grid;gap:10px;min-width:0}
-.gallery .main{aspect-ratio:1/1;background:var(--stone);overflow:hidden}
+.gallery .main{aspect-ratio:4/5;background:var(--stone);overflow:hidden}
 .gallery .main img{width:100%;height:100%;object-fit:contain}
 .thumbs{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
-.thumbs button{padding:0;border:2px solid transparent;background:var(--stone);aspect-ratio:1/1;cursor:pointer;overflow:hidden}
+.thumbs button{padding:0;border:2px solid transparent;background:var(--stone);aspect-ratio:4/5;cursor:pointer;overflow:hidden}
 .thumbs button[aria-current="true"]{border-color:var(--ink)}
 .thumbs img{width:100%;height:100%;object-fit:cover}
 .buybox{display:grid;gap:22px;align-content:start;min-width:0;position:sticky;top:96px}
@@ -170,7 +170,7 @@ nav.main a:hover,nav.main a[aria-current="page"]{text-decoration:underline;text-
 .lines{display:grid;min-width:0}
 .line{display:grid;grid-template-columns:110px 1fr auto;gap:18px;padding:20px 0;border-bottom:1px solid var(--line);align-items:start}
 .line:first-child{border-top:1px solid var(--line)}
-.line .thumb{aspect-ratio:1/1;background:var(--stone);overflow:hidden}
+.line .thumb{aspect-ratio:4/5;background:var(--stone);overflow:hidden}
 .line .thumb img{width:100%;height:100%;object-fit:cover}
 .line h3{margin:0;font-size:15px;letter-spacing:.08em;text-transform:uppercase}
 .line h3 a{text-decoration:none}
@@ -293,4 +293,7 @@ main{min-height:calc(100vh - 100px)}
 /* Small label on AI-generated styled photos (honest labelling for customers) */
 .gallery .main{position:relative}
 .ai-label{position:absolute;top:12px;right:12px;z-index:2;background:rgba(255,255,255,.88);color:var(--ink);font-size:11px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;padding:5px 8px}
-.gallery .main img{object-fit:contain}
+.gallery .main img{object-fit:cover}
+
+/* Portrait product photos: keep faces in frame */
+.ph img,.thumbs img,.line .thumb img{object-position:center top}
