@@ -8,7 +8,6 @@
       const n = data.products.filter(p => p.category === c.id).length;
       return `<a class="tile" href="/shop?category=${encodeURIComponent(c.id)}">
         <img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" decoding="async" width="825" height="1024">
-        ${c.imageIsAI ? `<span class="ai-label">AI-generated</span>` : ""}
         <div class="label"><h3>${esc(c.name)}</h3><span class="go">${n} style${n === 1 ? "" : "s"}</span></div>
       </a>`;
     }).join("");

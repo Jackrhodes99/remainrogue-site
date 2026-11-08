@@ -1,5 +1,5 @@
 {
-  "_help": "This is your product list. Edit it in GitHub (click the pencil icon). Prices are in Australian dollars. 'price' is what the customer pays. 'compareAtPrice' is the original price shown crossed out; set it to null to show no sale. Set 'active' to false to hide a product without deleting it. Read README.md, section 'Updating products', before editing. 'aiImages' lists photos that are AI-generated styled images; they show a small 'AI-generated' label.",
+  "_help": "This is your product list. Edit it in GitHub (click the pencil icon). Prices are in Australian dollars. 'price' is what the customer pays. 'compareAtPrice' is the original price shown crossed out; set it to null to show no sale. Set 'active' to false to hide a product without deleting it. Read README.md, section 'Updating products', before editing.",
   "products": [
     {
       "id": "mojito",
@@ -20,17 +20,14 @@
       "fitNote": "Polos run slightly large. We recommend sizing down.",
       "description": "A green and white check polo from the Golf & Racquet Club Release. Light, stretchy performance fabric that moves with your swing and stays sharp from the first tee to the clubhouse.",
       "images": [
-        "/images/mojito/mojito-1.jpg",
         "/images/mojito/mojito-ai.jpg",
+        "/images/mojito/mojito-1.jpg",
         "/images/mojito/mojito-2.jpg",
         "/images/mojito/mojito-3.jpg",
         "/images/mojito/mojito-4.jpg"
       ],
       "featured": true,
-      "active": true,
-      "aiImages": [
-        "/images/mojito/mojito-ai.jpg"
-      ]
+      "active": true
     },
     {
       "id": "fireball",
@@ -51,17 +48,14 @@
       "fitNote": "Polos run slightly large. We recommend sizing down.",
       "description": "The burnt orange and white check polo from the Golf & Racquet Club Release. Warm, loud and made to be noticed, in a stretch performance fabric that keeps you cool over 18 holes.",
       "images": [
-        "/images/fireball/fireball-1.jpg",
         "/images/fireball/fireball-ai.jpg",
+        "/images/fireball/fireball-1.jpg",
         "/images/fireball/fireball-2.jpg",
         "/images/fireball/fireball-3.jpg",
         "/images/fireball/fireball-4.jpg"
       ],
       "featured": true,
-      "active": true,
-      "aiImages": [
-        "/images/fireball/fireball-ai.jpg"
-      ]
+      "active": true
     },
     {
       "id": "blue-lagoon",
@@ -82,17 +76,14 @@
       "fitNote": "Polos run slightly large. We recommend sizing down.",
       "description": "A blue and white patterned polo from the Golf & Racquet Club Release. Cool-toned, easy to wear, and cut from a light stretch fabric built for hot days on the course.",
       "images": [
-        "/images/blue-lagoon/blue-lagoon-1.jpg",
         "/images/blue-lagoon/blue-lagoon-ai.jpg",
+        "/images/blue-lagoon/blue-lagoon-1.jpg",
         "/images/blue-lagoon/blue-lagoon-2.jpg",
         "/images/blue-lagoon/blue-lagoon-3.jpg",
         "/images/blue-lagoon/blue-lagoon-4.jpg"
       ],
       "featured": true,
-      "active": true,
-      "aiImages": [
-        "/images/blue-lagoon/blue-lagoon-ai.jpg"
-      ]
+      "active": true
     },
     {
       "id": "the-lobster",
@@ -113,16 +104,13 @@
       "fitNote": "We recommend sizing up in our tees for a more relaxed fit.",
       "description": "A white cotton tee with a small red and blue Lobster? graphic. Soft, simple and a little bit strange, for the round after the round.",
       "images": [
-        "/images/the-lobster/the-lobster-1.jpg",
         "/images/the-lobster/the-lobster-ai.jpg",
+        "/images/the-lobster/the-lobster-1.jpg",
         "/images/the-lobster/the-lobster-2.jpg",
         "/images/the-lobster/the-lobster-3.jpg"
       ],
       "featured": false,
-      "active": true,
-      "aiImages": [
-        "/images/the-lobster/the-lobster-ai.jpg"
-      ]
+      "active": true
     },
     {
       "id": "cupid",
@@ -143,16 +131,13 @@
       "fitNote": "We recommend sizing up in our tees for a more relaxed fit.",
       "description": "A white cotton tee with our Cupid graphic. Soft everyday cotton with a design that does the talking.",
       "images": [
-        "/images/cupid/cupid-1.jpg",
         "/images/cupid/cupid-ai.jpg",
+        "/images/cupid/cupid-1.jpg",
         "/images/cupid/cupid-2.jpg",
         "/images/cupid/cupid-3.jpg"
       ],
       "featured": false,
-      "active": true,
-      "aiImages": [
-        "/images/cupid/cupid-ai.jpg"
-      ]
+      "active": true
     },
     {
       "id": "stick-it-to-the-man",
@@ -167,35 +152,29 @@
       "fitNote": "One size fits most. Adjustable strap.",
       "description": "A black 5-panel cap in durable waterproof nylon, with our embroidered Stick Man on the front. Breathable, adjustable and tough enough for wet mornings on the course or anywhere else you take it.",
       "images": [
-        "/images/stick-it-to-the-man/stick-it-to-the-man-1.jpg",
         "/images/stick-it-to-the-man/stick-it-to-the-man-ai.jpg",
+        "/images/stick-it-to-the-man/stick-it-to-the-man-1.jpg",
         "/images/stick-it-to-the-man/stick-it-to-the-man-2.jpg"
       ],
       "featured": false,
-      "active": true,
-      "aiImages": [
-        "/images/stick-it-to-the-man/stick-it-to-the-man-ai.jpg"
-      ]
+      "active": true
     }
   ],
   "categories": [
     {
       "id": "polos",
       "name": "Polos",
-      "image": "/images/fireball/fireball-ai.jpg",
-      "imageIsAI": true
+      "image": "/images/fireball/fireball-ai.jpg"
     },
     {
       "id": "tees",
       "name": "Tees",
-      "image": "/images/the-lobster/the-lobster-ai.jpg",
-      "imageIsAI": true
+      "image": "/images/the-lobster/the-lobster-ai.jpg"
     },
     {
       "id": "caps",
       "name": "Caps",
-      "image": "/images/stick-it-to-the-man/stick-it-to-the-man-ai.jpg",
-      "imageIsAI": true
+      "image": "/images/stick-it-to-the-man/stick-it-to-the-man-ai.jpg"
     }
   ],
   "shipping": {
